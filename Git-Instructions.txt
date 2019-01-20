@@ -1,5 +1,18 @@
-cd projectName //go to to new project to be put to git
-git init //create new git repo for this dir
+# go to to new project to be put to git
+cd MyProjectName 
+
+#create new git repo for this dir
+git init 
+
+# check the status 
 git status
-//edit the .gitignore file to add the gradle directory of the wrapper etc.
-git add . // adds all not ignored dirs and files
+
+# edit the .gitignore file to add the gradle directory of the wrapper etc.
+
+# adds all not ignored dirs and files recursively
+git add . 
+
+# go to GitHub and create a new repository in your account
+
+# back to gitbash - in git bash write
+git remote add origin https://github.com/sv-georgiev/JerseyGrizzlyGradleExample.git
