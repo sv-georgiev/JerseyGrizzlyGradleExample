@@ -7,6 +7,9 @@
  */
 
 plugins {
+	//swg 29.01.2019:
+	id 'base'
+	
     // Apply the java plugin to add support for Java
     id 'java'
 
